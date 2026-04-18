@@ -52,7 +52,7 @@ Swagger UI доступен по адресу: http://localhost:8000/docs
 ## Демонстрация работы эндпоинтов
 
 1. Регистрация пользователя - POST /auth/register
-email: `student_krylasov@example.com`
+email: `student_krylasov@email.com`
 
 ![register](docs/register.png)
 
