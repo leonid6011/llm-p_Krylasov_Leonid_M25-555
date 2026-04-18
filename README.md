@@ -21,23 +21,28 @@ git clone https://github.com/leonid6011/llm-p_Krylasov_Leonid_M25-555
 cd llm-p_Krylasov_Leonid_M25-555
 ```
 
-3. Активация окружения
+3. Создание виртуального окружения
+```bash
+uv venv
+```
+
+4. Активация окружения
 ```bash
 source .venv/bin/activate
 ```
 
-4. Установка зависимостей
+5. Установка зависимостей
 ```bash
 uv pip install -r <(uv pip compile pyproject.toml)
 ```
 
-5. Настройка переменных окружения
+6. Настройка переменных окружения
 ```bash
 cp .env.example .env
 ```
 Откройте `.env` и вставьте ваш `OPENROUTER_API_KEY`.
 
-6. Запуск приложения
+7. Запуск приложения
 ```bash
 uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
