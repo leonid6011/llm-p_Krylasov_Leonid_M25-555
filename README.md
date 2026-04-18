@@ -17,7 +17,7 @@ source ~/.bashrc
 
 2. Клонируйте репозиторий:
 ```bash
-git clone [https://github.com/leonid6011/!!](https://github.com/leonid6011/llm-p_Krylasov_Leonid_M25-555)
+git clone https://github.com/leonid6011/llm-p_Krylasov_Leonid_M25-555
 cd llm-p_Krylasov_Leonid_M25-555
 ```
 
